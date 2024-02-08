@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Components/Header"; // Make sure this path is correct
+import Header from "./Components/Header";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { selectItems, selectTotal } from "../slices/basketSlice";
